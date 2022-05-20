@@ -1,6 +1,6 @@
 {
   "name": "react-style-handler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "simple library for styling inside component file",
   "main": "styleHandler.js",
   "scripts": {
