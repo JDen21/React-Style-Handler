@@ -1,0 +1,24 @@
+{
+  "name": "react-style-handler",
+  "version": "1.0.0",
+  "description": "simple library for styling inside component file",
+  "main": "styleHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDen21/React-Style-Handler.git"
+  },
+  "keywords": [
+    "react",
+    "inline styles",
+    "media queries"
+  ],
+  "author": "Den Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDen21/React-Style-Handler/issues"
+  },
+  "homepage": "https://github.com/JDen21/React-Style-Handler#readme"
+}
