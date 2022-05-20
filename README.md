@@ -7,11 +7,14 @@
     constantStyling({
         styleName : {
             'backgroundColor' : 'green'
+        },
+        styleName2 : {
+            'backgroundColor' : 'orange'
         }
     })
 
 ## call your constant styles like this
-    <h1 style={{ ...styles('constant').styleh1 }} >my h1 styled</h1>
+    <h1 style={{ ...styles('constant').styleName }} >my h1 styled</h1>
 
 # set styles depending on screen size
     smallWindowStyling()
@@ -20,13 +23,13 @@
     customWindowStyling()
 
 ## call your stylings the same way without the constant keyword 
-     <p style= {{ ...styles().pStyle}} >paragraph styled</p>
+     <p style= {{ ...styles().styleName2}} >paragraph styled</p>
 
 
 
 # Example 
-import React from "react";
-import { styles, constantStyling, smallWindowStyling, mediaQueryComponent } from './styleHandler'
+    import React from "react";
+    import { styles, constantStyling, smallWindowStyling, mediaQueryComponent } from './styleHandler'
 
     export default function SampleComponent(){
         return (
