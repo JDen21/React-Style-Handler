@@ -6,36 +6,11 @@ var screens = {
     custom : 800
 }
 
-var constantStyles = {
-    // pStyle : {
-    //     'backgroundColor' : '#250E34',
-    //     'color' : 'white'
-    // }  
-}
-
-var smallWindowStyles = {
-    pStyle : {
-        'textAlign' : 'right',
-    }    
-}
-
-var mediumWindowStyles =  {
-    pStyle : {
-        'textAlign' : 'center',
-    }    
-}
-
-var largeWindowStyles = {
-    pStyle : {
-        'textAlign' : 'center',
-    }    
-}
-
-var customWindowStyles = {
-    pStyle : {
-        'textAlign' : 'right',
-    }    
-}
+var constantStyles = {}
+var smallWindowStyles = {}
+var mediumWindowStyles =  {}
+var largeWindowStyles = {}
+var customWindowStyles = {}
 
 
 function mediaQueryComponent(arr){
