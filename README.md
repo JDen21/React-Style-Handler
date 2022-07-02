@@ -13,7 +13,7 @@ Library for defining styles the same page of component. Capable of media queries
 
 
 
-# set your media query points
+# set your media query points (I recommend you call this in your page component)
     mediaQueryComponent([screenSizeSmall, screenSizeMedium, screenSizeLarge, screenSizeCustom])
 
 # set styles that do not change 

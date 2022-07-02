@@ -4,7 +4,7 @@
   "description": "simple library for styling inside component file",
   "main": "styleHandler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/JDen21/React-Style-Handler/issues"
   },
-  "homepage": "https://github.com/JDen21/React-Style-Handler#readme"
+  "homepage": "https://github.com/JDen21/React-Style-Handler#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
 }
