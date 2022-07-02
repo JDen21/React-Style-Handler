@@ -1,4 +1,8 @@
-const {
+/**
+ * funnel all usable methods here
+ */
+
+import {
     styles,
     mediaQueryComponent,
     constantStyling,
@@ -6,11 +10,9 @@ const {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling
-} = require('./testables')
+} from './src/testables'
 
-/**
- * funnel all usable methods here
- */
+
 module.exports = {
     styles,
     mediaQueryComponent,

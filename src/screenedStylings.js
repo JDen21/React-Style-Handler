@@ -1,3 +1,5 @@
+import {  constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } from './stores'
+
 function constantStyling(styleset){
     for(const [key, value] of Object.entries(styleset))
         constantStyles[key] = value

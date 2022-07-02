@@ -1,9 +1,4 @@
-var screens = {
-    mobile : 450,
-    tab : 900,
-    computer : 1200,
-    custom : 800
-}
+import { screens } from './stores'
 
 function mediaQueryComponent(args){
     screens.mobile = args[0]

@@ -1,16 +1,23 @@
-const { screens,styles, mediaQueryComponent, constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling } = require('../testables')
+const {
+    screens,
+    styles,
+    mediaQueryComponent,
+    constantStyling,
+    smallWindowStyling,
+    mediumWindowStyling,
+    largeWindowStyling,
+    customWindowStyling
+} = require('../src/testables')
 
+beforeAll(() => {
+    mediaQueryComponent([1, 2, 3, 4])
 
-beforeAll(()=>{
-    mediaQueryComponent([1,2,3,4])
-    
     return
 })
 
-test('screen media query point setting',()=>{
+test('screen media query point setting', () => {
     expect(screens.mobile).toBe(1)
     expect(screens.tab).toBe(2)
     expect(screens.computer).toBe(3)
     expect(screens.custom).toBe(4)
-}) 
-
+})

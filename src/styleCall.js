@@ -1,11 +1,4 @@
-const {constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling} = require('./stylings')
-const {screens, mediaQueryComponent} = require('./screens')
-
-var constantStyles = {}
-var smallWindowStyles = {}
-var mediumWindowStyles = {}
-var largeWindowStyles = {}
-var customWindowStyles = {}
+import {  screens,constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } from './stores'
 
 function styles(val) {
 
@@ -35,13 +28,4 @@ function styles(val) {
 
 }
 
-module.exports = {
-    screens,
-    styles,
-    mediaQueryComponent,
-    constantStyling,
-    smallWindowStyling,
-    mediumWindowStyling,
-    largeWindowStyling,
-    customWindowStyling
-}
+module.exports = { styles, constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles }
