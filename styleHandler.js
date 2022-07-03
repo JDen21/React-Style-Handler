@@ -9,10 +9,14 @@ import {
     smallWindowStyling,
     mediumWindowStyling,
     largeWindowStyling,
-    customWindowStyling
+    customWindowStyling,
+    flush,
+    constantStyles
 } from './src/testables'
 
-
+    /**
+     * tests
+     */
 module.exports = {
     styles,
     mediaQueryComponent,
@@ -20,5 +24,8 @@ module.exports = {
     smallWindowStyling,
     mediumWindowStyling,
     largeWindowStyling,
-    customWindowStyling
+    customWindowStyling,
+   
+    flush,
+    constantStyles
 }
