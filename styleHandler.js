@@ -25,7 +25,6 @@ module.exports = {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling,
-   
     flush,
     constantStyles
 }
