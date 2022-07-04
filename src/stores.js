@@ -1,7 +1,7 @@
 var screens = {
-    mobile : 450,
-    tab : 900,
-    computer : 1200,
+    mobile : 350,
+    tab : 600,
+    computer : 1024,
     custom : 0
 }
 

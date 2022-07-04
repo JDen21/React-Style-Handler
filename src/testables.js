@@ -1,5 +1,8 @@
 /**
  * funnel all testable variables here
+ * 
+ * tested functions:
+ * mediaQueryComponent
  */
 
 import {constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling} from './screenedStylings'
@@ -12,11 +15,9 @@ import {
     largeWindowStyles, 
     customWindowStyles
 } from './styleCall'
-import { flush } from './stores'
 
 
 module.exports = {
-    flush,
     screens,
     constantStyles,
     smallWindowStyles,

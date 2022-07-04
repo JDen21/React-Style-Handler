@@ -10,12 +10,10 @@ import {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling,
-    flush,
-    constantStyles
 } from './src/testables'
 
     /**
-     * tests
+     * usables
      */
 module.exports = {
     styles,
@@ -25,6 +23,4 @@ module.exports = {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling,
-    flush,
-    constantStyles
 }
