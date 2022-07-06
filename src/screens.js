@@ -7,4 +7,4 @@ function mediaQueryComponent(args){
     screens.custom = args[3]
 }
 
-module.exports = { screens, mediaQueryComponent }
+module.exports = { mediaQueryComponent }

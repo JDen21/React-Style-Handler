@@ -28,4 +28,4 @@ function styles(val) {
 
 }
 
-module.exports = { styles, constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles }
+module.exports = { styles }

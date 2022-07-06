@@ -10,11 +10,13 @@ import {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling,
+    flush,
+    getHTMLInstance,
+    setAnimationFrame,
+    animateThis
 } from './src/testables'
 
-    /**
-     * usables
-     */
+    
 module.exports = {
     styles,
     mediaQueryComponent,
@@ -23,4 +25,8 @@ module.exports = {
     mediumWindowStyling,
     largeWindowStyling,
     customWindowStyling,
+    flush,
+    getHTMLInstance,
+    setAnimationFrame,
+    animateThis
 }

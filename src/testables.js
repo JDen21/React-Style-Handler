@@ -6,16 +6,11 @@
  */
 
 import {constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling} from './screenedStylings'
-import {screens, mediaQueryComponent} from './screens'
-import {
-    styles,
-    constantStyles,
-    smallWindowStyles,
-    mediumWindowStyles,
-    largeWindowStyles, 
-    customWindowStyles
-} from './styleCall'
-
+import { mediaQueryComponent } from './screens'
+import { screens, constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles, flush } from './stores'
+import { styles } from './styleCall'
+import { getHTMLInstance } from './domCalls'
+import { setAnimationFrame, animateThis } from './animations'
 
 module.exports = {
     screens,
@@ -30,5 +25,9 @@ module.exports = {
     smallWindowStyling,
     mediumWindowStyling,
     largeWindowStyling,
-    customWindowStyling
+    customWindowStyling,
+    flush,
+    getHTMLInstance,
+    setAnimationFrame,
+    animateThis
 }
