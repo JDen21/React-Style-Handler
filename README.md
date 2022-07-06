@@ -81,7 +81,7 @@ Library for defining styles the same page of component. Capable of media queries
     For example, for every instance of constantStyling called, the object it takes is stored in variable.
     Call flush() to set these variables to its default state again
     example:
-    flush
+    flush()
 
 # getHTMLInstance
     this method takes in a react ref. This method is responsible for referencing your dom when doing animation and other stuffs.
