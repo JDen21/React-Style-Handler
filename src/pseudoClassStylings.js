@@ -1,4 +1,4 @@
-import { hoverStyles, activeStyles } from './stores'
+const{ hoverStyles, activeStyles } = require('./stores.js') 
 
 function hoverStyling(styleset){
     for(const [key, value] of Object.entries(styleset)){

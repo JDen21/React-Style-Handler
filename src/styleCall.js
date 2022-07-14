@@ -1,4 +1,4 @@
-import {  screens,constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } from './stores'
+const {  screens,constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } = require('./stores.js') 
 
 function styles(val) {
 

@@ -60,18 +60,18 @@ Library for defining styles the same page of component. Capable of media queries
 
     constantStyling({
         pStyle : {
-            'backgroundColor' : '#250E34',
-            'color' : 'white'
+            backgroundColor : '#250E34',
+            color : 'white'
         },
         styleh1 : {
-            'color' : 'red',
-            'backgroundColor' : 'yellow'
+            color : 'red',
+            backgroundColor : 'yellow'
         } 
     })
 
     smallWindowStyling({
         pStyle : {
-            'backgroundColor' : 'green'
+            backgroundColor : 'green'
         }
     })
 
@@ -127,9 +127,20 @@ Library for defining styles the same page of component. Capable of media queries
     ]
 
     example options:
-    const options = {
+    const options1 = {
         duration: 2000,   //2 seconds
-        iteration: 'Infinity'
+        iterations: 'Infinity'
+    }
+
+    const options2 = {
+        duration: 2000,   //2 seconds
+        iterations: '3'
+    }
+
+    const option3 ={
+        duration: 1000,   
+        iterations: '10',
+        easing: 'ease-in-out'
     }
 
     example:
@@ -143,3 +154,32 @@ Library for defining styles the same page of component. Capable of media queries
     animateThis('domReferenceName', 'myFirstAnimationFrame')
 ### note: string inputs here are same as string arguments in getHTMLInstance and setAnimationFrame
 ### note: best to use in useRef or componentDidMount
+
+# hoverStyling and activeStyling
+    stylings for hover and active events respectively
+
+    example: 
+    hoverStyling({
+        styleName : {
+            'backgroundColor' : 'green'
+        },
+        styleName2 : {
+            'backgroundColor' : 'orange'
+        }
+    })
+
+    activeStyling({
+        styleName : {
+            'backgroundColor' : 'green'
+        },
+        styleName2 : {
+            'backgroundColor' : 'orange'
+        }
+    })
+
+# hoverThis and activeThis
+    attaches hover styling or active styling to your named instance
+
+    example:
+    hoverThis('HtmlElementName', 'styleName')
+    activeThis('HtmlElementName', 'styleName2')

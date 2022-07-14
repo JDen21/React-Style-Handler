@@ -1,4 +1,4 @@
-import { screens } from './stores'
+const { screens } = require('./stores.js') 
 
 function mediaQueryComponent(args){
     screens.mobile = args[0]

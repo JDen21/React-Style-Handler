@@ -1,4 +1,4 @@
-import { hoverStyles, activeStyles, HTMLInstance } from './stores'
+const { hoverStyles, activeStyles, HTMLInstance } = require('./stores.js') 
 
 function hoverThis(htmlName, hoverStyleName){
     if(Object.keys(hoverStyles).length === 0){ 

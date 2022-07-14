@@ -2,7 +2,7 @@
  * funnel all usable methods here
  */
 
-import {
+const {
     styles,
     mediaQueryComponent,
     constantStyling,
@@ -18,7 +18,7 @@ import {
     activeStyling,
     hoverThis,
     activeThis
-} from './src/testables'
+} = require('./src/testables.js') 
 
     
 module.exports = {

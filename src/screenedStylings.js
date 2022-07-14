@@ -1,4 +1,4 @@
-import {  constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } from './stores'
+const {  constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles } = require('./stores.js') 
 
 function constantStyling(styleset){
     for(const [key, value] of Object.entries(styleset))

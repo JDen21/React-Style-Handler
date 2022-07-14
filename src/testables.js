@@ -5,14 +5,14 @@
  * mediaQueryComponent
  */
 
-import {constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling} from './screenedStylings'
-import { mediaQueryComponent } from './screens'
-import { screens, constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles, flush } from './stores'
-import { styles } from './styleCall'
-import { getHTMLInstance } from './domCalls'
-import { setAnimationFrame, animateThis } from './animations'
-import { hoverStyling, activeStyling } from './pseudoClassStylings'
-import { hoverThis, activeThis } from './pseudoClassCalls'
+const {constantStyling, smallWindowStyling, mediumWindowStyling, largeWindowStyling, customWindowStyling} = require('./screenedStylings.js') 
+const { mediaQueryComponent } = require('./screens.js') 
+const { screens, constantStyles, smallWindowStyles, mediumWindowStyles, largeWindowStyles, customWindowStyles, flush } = require('./stores.js') 
+const { styles } = require('./styleCall.js') 
+const { getHTMLInstance } = require('./domCalls.js') 
+const { setAnimationFrame, animateThis } = require('./animations.js') 
+const { hoverStyling, activeStyling } = require('./pseudoClassStylings.js') 
+const { hoverThis, activeThis } = require('./pseudoClassCalls.js') 
 
 module.exports = {
     screens,

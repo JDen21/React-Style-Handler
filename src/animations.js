@@ -1,5 +1,4 @@
-
-
+const { HTMLInstance, animationOptions,animations } = require('./stores.js')
 /**
  * 
  * @param { string } animationName keyframe name 
@@ -15,6 +14,13 @@
 
 
 function setAnimationFrame(animationName, keyframe, options) {
+    if(options === null){
+        options ={
+            duration: 1000,   
+            iterations: '1',
+            easing: 'ease-in-out'
+        }
+    }
     const percentCheck = /\d+(?=%)/
     let proceeding = true
     var keyframeSet = []
