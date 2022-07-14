@@ -10,10 +10,14 @@ var smallWindowStyles = {}
 var mediumWindowStyles = {}
 var largeWindowStyles = {}
 var customWindowStyles = {}
+
 var HTMLInstance = {}
+
 var animations = {}
 var animationOptions = {}
 
+var hoverStyles = {}
+var activeStyles = {}
 /**
  * reset all stores
  *
@@ -35,6 +39,8 @@ function flush() {
     HTMLInstance = {}
     animations = {}
     animationOptions = {}
+    hoverStyles = {}
+    activeStyles = {}
 }
 
 module.exports = {
@@ -47,5 +53,7 @@ module.exports = {
     HTMLInstance,
     animations,
     animationOptions,
+    hoverStyles,
+    activeStyles,
     flush
 }

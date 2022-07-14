@@ -11,6 +11,8 @@ import { screens, constantStyles, smallWindowStyles, mediumWindowStyles, largeWi
 import { styles } from './styleCall'
 import { getHTMLInstance } from './domCalls'
 import { setAnimationFrame, animateThis } from './animations'
+import { hoverStyling, activeStyling } from './pseudoClassStylings'
+import { hoverThis, activeThis } from './pseudoClassCalls'
 
 module.exports = {
     screens,
@@ -29,5 +31,9 @@ module.exports = {
     flush,
     getHTMLInstance,
     setAnimationFrame,
-    animateThis
+    animateThis,
+    hoverStyling,
+    activeStyling,
+    hoverThis,
+    activeThis
 }

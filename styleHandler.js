@@ -13,7 +13,11 @@ import {
     flush,
     getHTMLInstance,
     setAnimationFrame,
-    animateThis
+    animateThis,
+    hoverStyling,
+    activeStyling,
+    hoverThis,
+    activeThis
 } from './src/testables'
 
     
@@ -28,5 +32,9 @@ module.exports = {
     flush,
     getHTMLInstance,
     setAnimationFrame,
-    animateThis
+    animateThis,
+    hoverStyling,
+    activeStyling,
+    hoverThis,
+    activeThis
 }
